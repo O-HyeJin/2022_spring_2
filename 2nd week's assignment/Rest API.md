@@ -128,6 +128,7 @@ REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그�
 <img width="800px" src="https://goodgid.github.io/assets/img/network/http_communicate_process_4.png"></img> 
 
 ### Request Header
+<img width="800px" src="https://mdn.mozillademos.org/files/13821/HTTP_Request_Headers2.png"></img> 
 1. GET / HTTP / 1.1 : HTTP 전송 방법과 프로토콜 버전
 2. Host : 요청하는 서버 주소
 3. User-Agent : OS / 브라우저 정보
@@ -140,6 +141,7 @@ REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그�
 10. Content-Length: 본문 크기
 
 ### Response Header
+<img width="800px" src="https://mdn.mozillademos.org/files/13823/HTTP_Response_Headers2.png"></img> 
 1. HTTP / 1.1 200 ok : 프로토콜 버전과 응답상태
 2. Access-Control-Allow-Origin : 서버에 타 사이트의 접근을 제한하는 방침
 3. Connection : 전송 완료 후 접속 유지 정보(keep-alive)
@@ -151,7 +153,8 @@ REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그�
 9. Server : 웹서버로 사용되는 프로그램 이름
 10. Set-Cookie : 쿠키 정보
 11. Transfer-Encoding : 인코딩 형식 지정
-12. X-Frame-Options : frame / iframe / object 허용 여부
+12. Vary: 캐시된 응답을 새로운 요청 헤더 대신 사용할 수 있는지 여부를 결정
+13. X-Frame-Options : frame / iframe / object 허용 여부
 
 <br>
 
@@ -192,3 +195,4 @@ REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그�
 [HTTP 상태코드](https://yunyoung1819.tistory.com/16)  
 [HTTP를 사용한 통신 과정](https://goodgid.github.io/HTTP-Communicate-Process/)   
 [요청(Request) 응답(Response) 흐름 과정](https://deep-wide-studio.tistory.com/213)
+[MDN Web Docs \> HTTP /> HTTP 헤더 \> Vary](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Vary)
